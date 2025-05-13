@@ -1,0 +1,6 @@
+id_produit,nom,prix,stock
+REF001,Produit A,49.99,100
+REF002,Produit B,19.99,50
+REF003,Produit C,29.99,75
+REF004,Produit D,79.99,120
+REF005,Produit E,39.99,80

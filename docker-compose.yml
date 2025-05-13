@@ -1,0 +1,16 @@
+services:
+  sqlite_base:
+    build: .
+    container_name: sqlite_base
+    volumes:
+      - ./DATA:/app/DATA
+      - ./SRC:/app/SRC
+    command: Commande permettant que le conteneur reste ouvert pour du dev interactif
+
+  csv-to-sqlite:
+    build: .
+    depends_on:
+      - sqlite_base
+    volumes:
+      A compléter
+    command: python SRC/script.py
