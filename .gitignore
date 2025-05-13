@@ -3,6 +3,7 @@
 __pycache__/
 
 
+data/pme.db
 TUTO_DOCKER.docx
 analyse_resultats.csv
 
