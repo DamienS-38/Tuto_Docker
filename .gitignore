@@ -2,7 +2,7 @@
 *.sqlite
 __pycache__/
 
-TUTO_DOCKER.pdf
+
 TUTO_DOCKER.docx
 analyse_resultats.csv
 
