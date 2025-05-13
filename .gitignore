@@ -1,0 +1,9 @@
+# Ignore les fichiers non nécessaires
+*.sqlite
+__pycache__/
+
+TUTO_DOCKER.pdf
+TUTO_DOCKER.docx
+analyse_resultats.csv
+
+# Ignorer les fichiers volumineux de données brutes
